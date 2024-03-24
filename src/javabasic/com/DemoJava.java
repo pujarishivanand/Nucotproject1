@@ -4,7 +4,15 @@ public class DemoJava {
 
 	public static void main(String[] args) {
 
-		System.out.println("hello Automation");
+		int a=10;
+		
+		if(a==10) {
+			System.out.println("a value matched");
+		}else {
+			System.out.println("not matched");
+			
+		}
+		
 	}
 
 }
